@@ -1,0 +1,30 @@
+Feature: SmartBear Automation Scenario 
+
+Scenario: Check Login Functionality
+Given Open the browser
+Given Navigate to the url
+When Enter the Username
+When Enter the Password
+When Click on SignIn
+Then Check the SignIn Successfull
+
+
+
+
+Scenario: Check Order Functionality
+When Click on Order
+When Enter Product
+When Enter Quantity
+When Enter CustomerName
+When Enter Street
+When Enter City
+When Enter State
+When Enter Zip
+When Enter Card
+When Enter CardNumber
+When Click on Process
+Then Check Order Created
+
+
+      
+      
